@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tracker - Explore the Skies</title>
+    <!-- Google Maps API script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATLuSX1D6kHXNTsAF3aZuTPUO__BdYAsc&callback=initMap" async defer></script>
+    <!-- JavaScript dosyanız -->
+    <script src="script.js"></script>
+    <style>
+        body {
+            background-image: url('wallpaper.jpg');
+            background-size: cover;
+            font-family: 'Monospace', Monospace;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+           font-family: 'Monospace', Monospace;
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <nav>
+        <div class="container">
+            <h1>Flight Tracker</h1>
+        </div>
+    </nav>
+</header>
+
+<!-- Harita gösterilecek div -->
+<div id="map" style="height: 600px; width: 100%;"></div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Code Commandos</p>
+    </div>
+</footer>
+</body>
+</html>
